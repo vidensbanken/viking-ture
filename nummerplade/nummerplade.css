@@ -1,0 +1,13 @@
+.soegeMuligheder#nummerplade {
+  height: auto;
+
+}
+ 
+#nummerplade input{
+	width: 100%;
+}
+
+
+#opslag-resultater h6 {
+	padding-top: 5px;
+}

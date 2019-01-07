@@ -1,0 +1,120 @@
+@media print {
+
+  html {
+    width: 210mm!important;
+    height: 297mm!important;
+  }
+
+  html body {
+    width: 210mm!important;
+    height: 297mm!important;
+  }
+
+  html body main {
+    width: 210mm!important;
+    height: 297mm!important;
+    overflow: hidden!important;
+  }
+
+  #wolves_print {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 210mm!important;
+    height: 297mm!important;
+    display: block;
+    z-index: 1000000;
+  }
+
+  #wolves_print .modal-content{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 210mm!important;
+    height: 297mm!important;
+    display: block;
+  }
+
+  #opretWolvesModal .modal-large {
+      max-width: 210mm;
+      width: 210mm!important;
+      height: 297mm!important;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding: 0;
+      margin: 0;
+  }
+
+  .col-6 {
+    max-width: 45%!important;
+  }
+
+  .modal-footer{
+    display: none!important;
+  }
+
+  .modal-content#opret_transport_orderModal_content {
+    border: none;
+  }
+
+}
+
+
+@media screen {
+
+  html {
+    width: 210mm!important;
+    height: 297mm!important;
+  }
+
+  html body {
+    width: 210mm!important;
+    height: 297mm!important;
+  }
+
+  html body main {
+    width: 210mm!important;
+    height: 297mm!important;
+    overflow: hidden!important;
+  }
+
+  #wolves_print {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 210mm!important;
+    height: 297mm!important;
+    display: block;
+    z-index: 1000000;
+  }
+
+  #wolves_print .modal-content{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 210mm!important;
+    height: 297mm!important;
+    display: block;
+  }
+
+  #opretWolvesModal .modal-large {
+      max-width: 210mm;
+      width: 210mm!important;
+      height: 297mm!important;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding: 0;
+      margin: 0;
+  }
+
+  .col-6 {
+    max-width: 45%!important;
+  }
+
+  .modal-footer{
+    display: none!important;
+  }
+
+}

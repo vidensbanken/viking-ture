@@ -1,0 +1,80 @@
+#reference {
+  margin-bottom: 10px;
+}
+
+#print_transport_order select.form-control:not([size]):not([multiple]) {
+    height: calc(1rem + 2px);
+    font-size: 0.8rem;
+}
+
+#print_transport_order .input-group-addon {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 0.8;
+    color: #464a4c;
+    text-align: center;
+    background-color: white;
+    border: 0;
+    border-radius: .25rem;
+}
+
+#print_transport_order {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+#print_transport_order {
+  max-width: 210mm;
+  width: 210mm!important;
+  height: 297mm;
+}
+
+#print_transport_order input{
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  height: 1rem;
+}
+
+#print_transport_order h5{
+  background-color: cornflowerblue;
+  color: white;
+  padding: 4px;
+}
+
+#print_transport_order  dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+
+@media print {
+  html {
+    width: 210mm!important;
+    height: 297mm!important;
+  }
+
+  html body {
+    width: 210mm!important;
+    height: 297mm!important;
+  }
+
+  #print_transport_order {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 210mm!important;
+    height: 297mm!important;
+    display: block;
+    z-index: 1000000;
+  }
+
+
+  #print_transport_order  .col-6 {
+    max-width: 50%!important;
+  }
+
+  #print_transport_order  .modal-footer{
+    display: none!important;
+  }
+}
